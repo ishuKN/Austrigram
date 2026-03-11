@@ -249,3 +249,28 @@ body {
 .star.active{
     color:#f5b301;
 }
+.filter-row{
+    display:flex;
+    gap:10px;
+    margin:15px 0;
+    flex-wrap:wrap;
+}
+
+.filter-row button{
+    padding:8px 14px;
+    border:none;
+    border-radius:20px;
+    background:#eee;
+    cursor:pointer;
+}
+
+.filter-row button:hover{
+    background:#ddd;
+}
+.search-bar{
+    width:100%;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    margin:15px 0;
+}
