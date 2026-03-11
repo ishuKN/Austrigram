@@ -184,3 +184,68 @@ body {
     gap:8px;
     align-items:center;
 }
+.cards-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:20px;
+}
+
+.place-card{
+    background:white;
+    border-radius:14px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    overflow:hidden;
+    width:320px;
+}
+
+.place-image{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.place-content{
+    padding:14px;
+}
+
+.place-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.place-type{
+    background:#f3f3f3;
+    padding:4px 10px;
+    border-radius:20px;
+    font-size:12px;
+}
+
+.place-location{
+    font-size:14px;
+    color:#666;
+}
+
+.place-description{
+    font-size:14px;
+}
+
+.rating{
+    margin:6px 0;
+}
+
+.rating{
+    margin:6px 0;
+}
+
+.star{
+    font-size:20px;
+    cursor:pointer;
+    color:#ccc;
+    margin-right:3px;
+}
+
+.star.active{
+    color:#f5b301;
+}
