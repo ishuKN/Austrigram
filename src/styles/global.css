@@ -95,3 +95,92 @@ body {
 .card-content {
   padding: 14px;
 }
+.add-post-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#ff2d6f,#ff4b8a);
+    color: white;
+    cursor: pointer;
+}
+
+.post-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-form input,
+.post-form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.post-form textarea {
+    min-height: 80px;
+}
+
+.post-form button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #ff2d6f;
+    color: white;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background: #aaa;
+}
+
+.posts {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.post-image{
+    max-width: 320px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    display: block;
+    margin: 10px auto;
+}
+
+.accessible-badge{
+    margin-top:8px;
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:20px;
+    background:#e6f7ee;
+    color:#1f7a4d;
+    font-size:12px;
+}
+
+.accessible-check{
+    display:flex;
+    gap:8px;
+    align-items:center;
+}
